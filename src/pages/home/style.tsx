@@ -3,7 +3,6 @@ import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
 import { css } from "@stitches/react";
 
-import meIlustration from "@/public/static/img/background/me-ilustration.svg";
 import backgroundImg from "@/public/static/img/projects/vapor1523327271138.gif";
 
 import dots from "@/public/static/img/background/dots.svg";
