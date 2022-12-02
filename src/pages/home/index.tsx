@@ -26,6 +26,7 @@ import {
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
 } from "./style";
+import About from "@/components/About";
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
@@ -36,16 +37,6 @@ export const Home = (): JSX.Element => {
       <Header>
         <Container>
           <HeaderContent>
-            <Flex>
-              <UserImage
-                src={`https://github.com/${userData.githubUser}.png`}
-                alt={userData.nameUser}
-                title={userData.nameUser}
-                width={"48px"}
-                height={"48px"}
-              />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
-            </Flex>
             <Text as="h1" type="heading1" color="grey5">
               I{" "}
               <Text as="span" type="heading1" color="brand1">
@@ -87,6 +78,11 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
+      <ProjectsArea id="about">
+        <Container>
+          <About />
+        </Container>
+      </ProjectsArea>
       <ProjectsArea id="projects">
         <Container>
           <ProjectAreaWrapperColumns>
