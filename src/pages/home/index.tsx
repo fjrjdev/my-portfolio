@@ -38,26 +38,26 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              I{" "}
-              <Text as="span" type="heading1" color="brand1">
-                love
+              Olá,{" "}
+              <Text as="span" type="heading1" color="grey5">
+                eu
               </Text>{" "}
-              creating and{" "}
+              sou o{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                Fábio.
               </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Aprendendo aduarmente com um unico objetivo de agregar e entregar
+              o melhor produto possivél, levando sempre as boas praticas e
+              cuidado em primeiro lugar.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Meus Projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                Ver o código-fonte do meu portfólio
               </Button>
               <Button
                 color="grey5"
@@ -88,12 +88,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns dos meus{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  projetos pessoais
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>

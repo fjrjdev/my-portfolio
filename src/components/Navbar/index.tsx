@@ -58,16 +58,28 @@ export const NavLinks = (): JSX.Element => {
   return (
     <NavbarLinks>
       <Button type="btLink" as="a" color="grey4" href={`#home`}>
-        Home
+        Inicio
+      </Button>
+      <Button
+        type="btLink"
+        as="a"
+        color="grey4"
+        onClick={(e) =>
+          window.open(
+            "https://drive.google.com/file/d/11uJn0mFe_yXFxnlWTsOOWMgpyYOr17V8/"
+          )
+        }
+      >
+        Currículo
       </Button>
       <Button type="btLink" as="a" color="grey4" href={`#about`}>
-        About
+        Sobre
       </Button>
       <Button type="btLink" as="a" color="grey4" href={`#projects`}>
-        Projects
+        Projetos
       </Button>
       <Button type="btLink" as="a" color="grey4" href={`#contact`}>
-        Contact
+        Contatos
       </Button>
     </NavbarLinks>
   );
