@@ -64,7 +64,7 @@ export const NavLinks = (): JSX.Element => {
         type="btLink"
         as="a"
         color="grey4"
-        onClick={(e) =>
+        onClick={() =>
           window.open(
             "https://drive.google.com/file/d/11uJn0mFe_yXFxnlWTsOOWMgpyYOr17V8/"
           )
